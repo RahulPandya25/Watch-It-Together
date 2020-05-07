@@ -10,7 +10,9 @@ const userService = require("./services/UserService");
 app.use(express.static(__dirname + "/public"));
 
 function onConnection(socket) {
-  socket.on("viewer", (data) => socket.broadcast.emit("viewer", data));
+  socket.on("play", (data) => socket.broadcast.emit("play", data));
+  socket.on("pause", (data) => socket.broadcast.emit("pause", data));
+  socket.on("seek", (data) => socket.broadcast.emit("seek", data));
 }
 
 io.on("connection", onConnection);
