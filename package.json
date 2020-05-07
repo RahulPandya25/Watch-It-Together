@@ -4,6 +4,7 @@
   "description": "Real Time Application made with Node JS, Express JS, and Socket.IO to watch videos together with friends and family",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/RahulPandya25/Watch-It-Together/issues"
   },
-  "homepage": "https://github.com/RahulPandya25/Watch-It-Together#readme"
+  "homepage": "https://github.com/RahulPandya25/Watch-It-Together#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
