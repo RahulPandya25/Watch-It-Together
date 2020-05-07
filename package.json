@@ -1,0 +1,24 @@
+{
+  "name": "watch-it-together",
+  "version": "1.0.0",
+  "description": "Real Time Application made with Node JS, Express JS, and Socket.IO to watch videos together with friends and family",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahulPandya25/Watch-It-Together.git"
+  },
+  "keywords": [
+    "watch",
+    "it",
+    "together"
+  ],
+  "author": "Rahul Pandya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RahulPandya25/Watch-It-Together/issues"
+  },
+  "homepage": "https://github.com/RahulPandya25/Watch-It-Together#readme"
+}
