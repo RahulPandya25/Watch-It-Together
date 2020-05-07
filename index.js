@@ -13,6 +13,7 @@ function onConnection(socket) {
   socket.on("play", (data) => socket.broadcast.emit("play", data));
   socket.on("pause", (data) => socket.broadcast.emit("pause", data));
   socket.on("seek", (data) => socket.broadcast.emit("seek", data));
+  socket.on("seeking", (data) => socket.broadcast.emit("seeking", data));
 }
 
 io.on("connection", onConnection);
